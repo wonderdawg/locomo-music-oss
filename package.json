@@ -1,0 +1,173 @@
+{
+  "name": "locomo-music-oss",
+  "productName": "Locomo Music OSS",
+  "version": "0.1.0",
+  "description": "An open-source desktop application for local music generation.",
+  "author": "Immortal Company, Inc.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wonderdawg/locomo-music-oss.git"
+  },
+  "private": true,
+  "type": "module",
+  "main": "dist-electron/main.cjs",
+  "packageManager": "pnpm@11.9.0",
+  "scripts": {
+    "clean": "node scripts/clean.mjs",
+    "build:aac-encoder": "node scripts/build-aac-encoder.mjs",
+    "build:cpp-q8-helper": "sh scripts/build-cpp-q8-helper.sh",
+    "build:native": "pnpm run build:aac-encoder && pnpm run build:cpp-q8-helper",
+    "build:electron": "node scripts/build-electron.mjs",
+    "build:renderer": "vite build",
+    "build:code": "pnpm run clean && pnpm run build:electron && pnpm run build:renderer",
+    "build": "pnpm run build:native && pnpm run build:code",
+    "dev": "pnpm run build && node scripts/run-dev.mjs",
+    "smoke:dev": "pnpm run build && node scripts/run-dev.mjs --smoke-test",
+    "assets:manifest": "node scripts/asset-manifest.mjs",
+    "licenses:runtime": "node scripts/js-runtime-licenses.mjs",
+    "licenses:electron": "node scripts/prepare-electron-notices.mjs",
+    "source:guard": "node scripts/verify-public-source-boundary.mjs",
+    "source:guard:index": "node scripts/verify-public-source-boundary.mjs --index",
+    "source:guard:projection": "node scripts/verify-public-source-boundary.mjs --projection",
+    "source:guard:self-test": "node scripts/test-public-source-boundary.mjs",
+    "verify:package:mac": "node scripts/verify-community-mac-package.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "package:mac:unsigned": "node scripts/package-community-mac.mjs"
+  },
+  "dependencies": {
+    "lucide-solid": "1.25.0",
+    "solid-js": "1.9.14"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@types/node": "26.1.2",
+    "electron": "43.2.0",
+    "electron-builder": "26.15.3",
+    "esbuild": "0.28.1",
+    "tailwindcss": "4.3.3",
+    "typescript": "7.0.2",
+    "vite": "8.1.5",
+    "vite-plugin-solid": "2.11.14",
+    "vitest": "4.1.10"
+  },
+  "build": {
+    "appId": "com.locomomusic.oss",
+    "productName": "Locomo Music OSS",
+    "asar": true,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist-electron/**/*",
+      "dist-renderer/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "LICENSE",
+        "to": "licenses/Locomo-MIT.txt"
+      },
+      {
+        "from": "THIRD_PARTY_NOTICES.md",
+        "to": "licenses/THIRD_PARTY_NOTICES.md"
+      },
+      {
+        "from": "ASSET_LICENSES.md",
+        "to": "licenses/ASSET_LICENSES.md"
+      },
+      {
+        "from": "ASSET_MANIFEST.json",
+        "to": "licenses/ASSET_MANIFEST.json"
+      },
+      {
+        "from": "CC0-1.0.txt",
+        "to": "licenses/CC0-1.0.txt"
+      },
+      {
+        "from": "TRADEMARKS.md",
+        "to": "licenses/TRADEMARKS.md"
+      },
+      {
+        "from": "resources/licenses/JS_RUNTIME_LICENSES.txt",
+        "to": "licenses/JS_RUNTIME_LICENSES.txt"
+      },
+      {
+        "from": "resources/licenses/electron/Electron-LICENSE.txt",
+        "to": "licenses/Electron-LICENSE.txt"
+      },
+      {
+        "from": "resources/licenses/electron/Chromium-LICENSES.html",
+        "to": "licenses/Chromium-LICENSES.html"
+      },
+      {
+        "from": "resources/runtime-cpp-q8",
+        "to": "runtime-cpp-q8",
+        "filter": [
+          "**/*",
+          "!bin/**"
+        ]
+      }
+    ],
+    "extraFiles": [
+      {
+        "from": "resources/audio-tools/locomo-aac-encoder",
+        "to": "Helpers/locomo-aac-encoder"
+      },
+      {
+        "from": "resources/runtime-cpp-q8/bin/ace-server",
+        "to": "Helpers/LocomoACE/ace-server"
+      },
+      {
+        "from": "resources/runtime-cpp-q8/bin/libggml-base.0.17.0.dylib",
+        "to": "Helpers/LocomoACE/libggml-base.0.17.0.dylib"
+      },
+      {
+        "from": "resources/runtime-cpp-q8/bin/libggml-blas.0.17.0.dylib",
+        "to": "Helpers/LocomoACE/libggml-blas.0.17.0.dylib"
+      },
+      {
+        "from": "resources/runtime-cpp-q8/bin/libggml-cpu.0.17.0.dylib",
+        "to": "Helpers/LocomoACE/libggml-cpu.0.17.0.dylib"
+      },
+      {
+        "from": "resources/runtime-cpp-q8/bin/libggml-metal.0.17.0.dylib",
+        "to": "Helpers/LocomoACE/libggml-metal.0.17.0.dylib"
+      },
+      {
+        "from": "resources/runtime-cpp-q8/bin/libggml.0.17.0.dylib",
+        "to": "Helpers/LocomoACE/libggml.0.17.0.dylib"
+      }
+    ],
+    "mac": {
+      "binaries": [
+        "Contents/Helpers/locomo-aac-encoder",
+        "Contents/Helpers/LocomoACE/ace-server",
+        "Contents/Helpers/LocomoACE/libggml-base.0.17.0.dylib",
+        "Contents/Helpers/LocomoACE/libggml-blas.0.17.0.dylib",
+        "Contents/Helpers/LocomoACE/libggml-cpu.0.17.0.dylib",
+        "Contents/Helpers/LocomoACE/libggml-metal.0.17.0.dylib",
+        "Contents/Helpers/LocomoACE/libggml.0.17.0.dylib"
+      ],
+      "category": "public.app-category.music",
+      "identity": null,
+      "minimumSystemVersion": "15.0",
+      "extendInfo": {
+        "NSAudioCaptureUsageDescription": null,
+        "NSBluetoothAlwaysUsageDescription": null,
+        "NSBluetoothPeripheralUsageDescription": null,
+        "NSCameraUsageDescription": null,
+        "NSMicrophoneUsageDescription": null
+      },
+      "target": [
+        {
+          "target": "dir",
+          "arch": [
+            "arm64"
+          ]
+        }
+      ]
+    }
+  }
+}

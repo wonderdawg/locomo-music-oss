@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "copyrightHolder": "Immortal Company, Inc.",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "bytes": 10389,
+      "path": "src/renderer/public/assets/station-masks/boom-bap.svg",
+      "sha256": "3fd5cacabd5c2fb7e3571fb99e40be15fe53738b75654df88dfbfe17b5c961e7"
+    },
+    {
+      "bytes": 19273,
+      "path": "src/renderer/public/assets/station-masks/cinematic-hip-hop.svg",
+      "sha256": "dce9217ee4ff3ba5ec502bbb093f2d8d4e7935cd730ef20cabc4bd254b20ab0d"
+    },
+    {
+      "bytes": 3755,
+      "path": "src/renderer/public/assets/station-masks/classic-rock.svg",
+      "sha256": "408187d785d25592d48fae0747d109ea18f8d9278f865af7d23c4d72eb780e26"
+    },
+    {
+      "bytes": 6003,
+      "path": "src/renderer/public/assets/station-masks/cool-jazz.svg",
+      "sha256": "57aec31d257ad3600bcbef43544b431d173f52fb9ec39f472266b3ac8c2356db"
+    },
+    {
+      "bytes": 7127,
+      "path": "src/renderer/public/assets/station-masks/country-pop.svg",
+      "sha256": "cb030da4ece0d4df076e2a1e295e6afffd4e0e659241a24773e8b0a0861dfbd6"
+    },
+    {
+      "bytes": 11486,
+      "path": "src/renderer/public/assets/station-masks/favorites.svg",
+      "sha256": "00c48061607ae0fb10fd53a50b29d3359a8fa679cc361ebf0e9c98f602a64753"
+    },
+    {
+      "bytes": 35200,
+      "path": "src/renderer/public/assets/station-masks/future-french-house.svg",
+      "sha256": "339e80dc0f2948eb329907dc74d8957e03a6902c7b86dbba21ecac1bb1f0d6f4"
+    },
+    {
+      "bytes": 11202,
+      "path": "src/renderer/public/assets/station-masks/house.svg",
+      "sha256": "e9e908c0e1d1d1971c16cd5a2d0799785cc48281bc0bb558096492eeb86fdb9f"
+    },
+    {
+      "bytes": 12263,
+      "path": "src/renderer/public/assets/station-masks/indie-folk.svg",
+      "sha256": "67c85a2a7db2a6711bf3f17b3fd54e6ba63960b566cda28bf2c5e880abcf6b3b"
+    },
+    {
+      "bytes": 9618,
+      "path": "src/renderer/public/assets/station-masks/indie-pop.svg",
+      "sha256": "32fc638c340a66ccacadf6432e4b368acc338873bd9a563313e781fd1d2ee4bd"
+    },
+    {
+      "bytes": 12026,
+      "path": "src/renderer/public/assets/station-masks/jazz-fusion.svg",
+      "sha256": "6e31f63849c98beb2f50779f34cad21f0a9866e978f6fb0847d168886a9778e2"
+    },
+    {
+      "bytes": 9120,
+      "path": "src/renderer/public/assets/station-masks/latin-house.svg",
+      "sha256": "6d72f77dab563237d617c35de5375386498c2586ec1ceefc5d76eb7284205878"
+    },
+    {
+      "bytes": 13612,
+      "path": "src/renderer/public/assets/station-masks/latin-techno.svg",
+      "sha256": "4831a8922c83d99d32b3062fff5ab57f77154cf6b54c2813ee79ed0f00f19a43"
+    },
+    {
+      "bytes": 5973,
+      "path": "src/renderer/public/assets/station-masks/lo-fi-hip-hop.svg",
+      "sha256": "9b9a51ab29baf1b6a4808389076bb494808ccb2d31d2ca365c8ec8e1d3feaacf"
+    },
+    {
+      "bytes": 12314,
+      "path": "src/renderer/public/assets/station-masks/progressive-metal.svg",
+      "sha256": "4af67f6fc63be9f12b10c186b85441865ef89bb33f3e7e8b1c8e7fab9322f3ad"
+    },
+    {
+      "bytes": 7276,
+      "path": "src/renderer/public/assets/station-masks/punk-rock.svg",
+      "sha256": "b92f7edf17454300acfc6dbd15028bd40834746a2bb481c9e70332fb0acc399a"
+    },
+    {
+      "bytes": 15757,
+      "path": "src/renderer/public/assets/station-masks/synth-pop.svg",
+      "sha256": "073ba413b5f759662e9a1fb5791ee13293cba8f09a612f0b50c7a6ce70663f83"
+    },
+    {
+      "bytes": 10232,
+      "path": "src/renderer/public/assets/station-masks/techno.svg",
+      "sha256": "50b5faf8eca99c3b106eed084feca3963a4a4c5b66107f3120f23eeaa82c0fbe"
+    },
+    {
+      "bytes": 6227,
+      "path": "src/renderer/public/assets/station-masks/thrash-metal.svg",
+      "sha256": "de008b622116b312146138685f2af78d00516edb70471d522611ee161a95b858"
+    },
+    {
+      "bytes": 88400,
+      "path": "src/renderer/public/assets/stations/alternative.png",
+      "sha256": "5465dc4f5991d883756d337dd788f2753263ea3ce6542d39c12979f57cd2ce2e"
+    },
+    {
+      "bytes": 40383,
+      "path": "src/renderer/public/assets/stations/ambient.png",
+      "sha256": "e56b5925ce561715da0afeba89f6f7d0437cf4c6f9d4b97e50bdf6810bff4463"
+    },
+    {
+      "bytes": 138516,
+      "path": "src/renderer/public/assets/stations/americana.png",
+      "sha256": "e89c1ef0eda03424871a753194d056597691a75166e59b1bb7346992fb1d7126"
+    },
+    {
+      "bytes": 75474,
+      "path": "src/renderer/public/assets/stations/baroque.png",
+      "sha256": "7059dde1d63a1b8f9e4a4f3bc1ed8545c47087fe73b6198afeae777e382045f0"
+    },
+    {
+      "bytes": 80624,
+      "path": "src/renderer/public/assets/stations/bebop.png",
+      "sha256": "4e088687ab778bdb5dcd2d52a9ccf17e758aff697b3cf30c1f47e55de656d667"
+    },
+    {
+      "bytes": 67687,
+      "path": "src/renderer/public/assets/stations/bluegrass.png",
+      "sha256": "d278afd1eda991540a25df9c942bd8c1176c86a20718823f1c5c659029ca166e"
+    },
+    {
+      "bytes": 79054,
+      "path": "src/renderer/public/assets/stations/boom-bap.png",
+      "sha256": "0b3cc28f36d4ca0a63fccb78690c7af2ba86826f024668646e3a1a5f688cd06a"
+    },
+    {
+      "bytes": 81881,
+      "path": "src/renderer/public/assets/stations/celtic-folk.png",
+      "sha256": "e32a8363d0c7f5d9ab2de60c3f644271b810b5701199ab02d58002d47daf9f8b"
+    },
+    {
+      "bytes": 37526,
+      "path": "src/renderer/public/assets/stations/classic-rock.png",
+      "sha256": "795623fa65262127915a916de02f51867a0a2f5126fc03beb35b453b67fa1484"
+    },
+    {
+      "bytes": 79306,
+      "path": "src/renderer/public/assets/stations/cool-jazz.png",
+      "sha256": "31a43621e7e9752bd46d5d24a7f36a8cc70f7674298a37ab301d2b16fff177ee"
+    },
+    {
+      "bytes": 72717,
+      "path": "src/renderer/public/assets/stations/country-pop.png",
+      "sha256": "c8d71b840769d4153888976aea0e7f252e6b95e617c0da9b3c0deb837a936064"
+    },
+    {
+      "bytes": 91344,
+      "path": "src/renderer/public/assets/stations/dance-pop.png",
+      "sha256": "5d057d076120201d227736c3341155ef59c8ca2e5ec81eb118c66697df89282f"
+    },
+    {
+      "bytes": 85096,
+      "path": "src/renderer/public/assets/stations/doom-metal.png",
+      "sha256": "c47f244405a8d790e14d08c0f9c9a1fe4ec183fec922a918781ec230effde944"
+    },
+    {
+      "bytes": 176576,
+      "path": "src/renderer/public/assets/stations/future-french-house.png",
+      "sha256": "4b0a019b358f6a10d617c4a63772495baad990a5636f7171236f70803d4aec73"
+    },
+    {
+      "bytes": 95597,
+      "path": "src/renderer/public/assets/stations/house.png",
+      "sha256": "784c9ac0b1322a2355b6dfc0a0c26e167532b1e9fe8617de75f44eec906b6623"
+    },
+    {
+      "bytes": 110521,
+      "path": "src/renderer/public/assets/stations/indie-folk.png",
+      "sha256": "e4902dddd753f9fe5c56296d2df9ffc49da0d3f768d7586ef15f7005b129a510"
+    },
+    {
+      "bytes": 78602,
+      "path": "src/renderer/public/assets/stations/indie-pop.png",
+      "sha256": "18e5997609e2685e9b3cbadc40538c3e483c9237790b769e3ff9c16836e4788a"
+    },
+    {
+      "bytes": 119050,
+      "path": "src/renderer/public/assets/stations/jazz-fusion.png",
+      "sha256": "a6df1cbd6d2ccdfedb73a08b9add7fd4163311c91c1f487e8ed5d4c559695eb7"
+    },
+    {
+      "bytes": 52001,
+      "path": "src/renderer/public/assets/stations/latin-house.png",
+      "sha256": "6dea2e89adce91db2f893c2d20e1715363df641157413eaf15624b786339dd3d"
+    },
+    {
+      "bytes": 69399,
+      "path": "src/renderer/public/assets/stations/lo-fi-hip-hop.png",
+      "sha256": "7b3079f4e475b37689cb0a2ee2cf0e99829818ceff40057a29ff17336c58e8e6"
+    },
+    {
+      "bytes": 51205,
+      "path": "src/renderer/public/assets/stations/minimalist.png",
+      "sha256": "f16217acfa693dd43aedf958031bd586b4daae4d1ab831d5b4a7d86bb5355ff3"
+    },
+    {
+      "bytes": 86437,
+      "path": "src/renderer/public/assets/stations/modern-r-and-b.png",
+      "sha256": "53a9603b68acbd59b7d05bbecd09fca2d3d61a3f8d58265e4be761409d5d9efb"
+    },
+    {
+      "bytes": 103768,
+      "path": "src/renderer/public/assets/stations/neo-soul.png",
+      "sha256": "9a67efbe8e37dccec3f38872c31060ec9de098052136d87dbbd4b779126483bc"
+    },
+    {
+      "bytes": 84606,
+      "path": "src/renderer/public/assets/stations/new-jack-swing.png",
+      "sha256": "aeef60486d5774f9beb75f748bfef760de8e68e3fc64dae4dcc676eaeae9e07c"
+    },
+    {
+      "bytes": 78401,
+      "path": "src/renderer/public/assets/stations/outlaw.png",
+      "sha256": "e5712a1c92b24f1c5dde011fbc186d68e4d7ffdda0a90e0a766a5a9880997bf3"
+    },
+    {
+      "bytes": 99161,
+      "path": "src/renderer/public/assets/stations/progressive-metal.png",
+      "sha256": "3611977b9e887afba25cde2283b5b180886929f81c15ca2814b759a90c1a6bfe"
+    },
+    {
+      "bytes": 71974,
+      "path": "src/renderer/public/assets/stations/punk-rock.png",
+      "sha256": "4dbc2a82e92f5f18c5de2a7d9f2ffed3884fd35176f9d8ca3e25375a94482bf1"
+    },
+    {
+      "bytes": 76410,
+      "path": "src/renderer/public/assets/stations/romantic.png",
+      "sha256": "66a52cf4a68e127dd7c10d68d8b3285412ee4a50e9a626f695c31174c346b4bd"
+    },
+    {
+      "bytes": 110992,
+      "path": "src/renderer/public/assets/stations/synth-pop.png",
+      "sha256": "a92ae81c70e348503435e349a001be36693243493c69be93dfcc83c20e46086d"
+    },
+    {
+      "bytes": 77250,
+      "path": "src/renderer/public/assets/stations/techno.png",
+      "sha256": "f5b99731067fb69a881480c207d2d9bf5461d4929379896d02ae961b0c5cadfb"
+    },
+    {
+      "bytes": 57528,
+      "path": "src/renderer/public/assets/stations/thrash-metal.png",
+      "sha256": "7eadfead150666abe9a00b766e2ae50d6f6031f3211d983989eb3e54bcd52d8d"
+    },
+    {
+      "bytes": 84932,
+      "path": "src/renderer/public/assets/stations/trap.png",
+      "sha256": "901955fcb97914ef0af5bac7c513d4ffe94234c9562be11ec319564eb2f9d49d"
+    },
+    {
+      "bytes": 88345,
+      "path": "src/renderer/public/assets/stations-dark/alternative.png",
+      "sha256": "a47ffb34e8f6395eba91060b3df33fa0bcdc1265bb519d08d91aa8e0fb9513d2"
+    },
+    {
+      "bytes": 40433,
+      "path": "src/renderer/public/assets/stations-dark/ambient.png",
+      "sha256": "12538cb9ad0ff1f56f74fff29850c066bd7628c29fda444c6d48355d3caafbfd"
+    },
+    {
+      "bytes": 138477,
+      "path": "src/renderer/public/assets/stations-dark/americana.png",
+      "sha256": "57a39f24b93255ae42b8819f898c51623c240fd46a7a01020399aa13e0fd3297"
+    },
+    {
+      "bytes": 75263,
+      "path": "src/renderer/public/assets/stations-dark/baroque.png",
+      "sha256": "319da640f831deb153411494b4afd40aab719a3765562f70571eff3e26f9f119"
+    },
+    {
+      "bytes": 80623,
+      "path": "src/renderer/public/assets/stations-dark/bebop.png",
+      "sha256": "10a7d004853644bac57e755461ac6788bed387e7c91aa02ae35c2f48d422cc70"
+    },
+    {
+      "bytes": 67479,
+      "path": "src/renderer/public/assets/stations-dark/bluegrass.png",
+      "sha256": "78a930e0053d6f376aef1237e0822e17b1055eec5aca24392e1fd97803957a16"
+    },
+    {
+      "bytes": 79147,
+      "path": "src/renderer/public/assets/stations-dark/boom-bap.png",
+      "sha256": "9d8a9cfffd1cd0e3281a29eef0639fee532d40b6868bdfbdcbc6e65994587052"
+    },
+    {
+      "bytes": 81724,
+      "path": "src/renderer/public/assets/stations-dark/celtic-folk.png",
+      "sha256": "aa0e7230dd590b4a68810885d9b557e718075772a297ac007b1b2b558f03bc6b"
+    },
+    {
+      "bytes": 37489,
+      "path": "src/renderer/public/assets/stations-dark/classic-rock.png",
+      "sha256": "e11552546457c9d053575da0c869ed6cd83648b2c33b93a0e48363b8f186b9a8"
+    },
+    {
+      "bytes": 79315,
+      "path": "src/renderer/public/assets/stations-dark/cool-jazz.png",
+      "sha256": "3060a824081057d1d1c8903fde9c8d45918e06fa3967c67d6ba6945eb4f9e1c0"
+    },
+    {
+      "bytes": 72602,
+      "path": "src/renderer/public/assets/stations-dark/country-pop.png",
+      "sha256": "8c7bdb48a89732172677ebe6bd4781b29cf13e4585cdd3476cd64ffa4a711a56"
+    },
+    {
+      "bytes": 91357,
+      "path": "src/renderer/public/assets/stations-dark/dance-pop.png",
+      "sha256": "ec5b2d95ccb363c1e585048fc746394288f396f142c6dd2adfd326ec25bf0b2d"
+    },
+    {
+      "bytes": 81062,
+      "path": "src/renderer/public/assets/stations-dark/doom-metal.png",
+      "sha256": "2ab148c4a46a6b0962f690b31c46cdad1568e2f33e562eb76cbf3ab7b15e173e"
+    },
+    {
+      "bytes": 168209,
+      "path": "src/renderer/public/assets/stations-dark/future-french-house.png",
+      "sha256": "25d8f5b5870066f84e193b70e23599b6cd5404ffd22278092c201228b2affb29"
+    },
+    {
+      "bytes": 107179,
+      "path": "src/renderer/public/assets/stations-dark/house.png",
+      "sha256": "701290d08283619c8a74aef51dc202258e990f4c6de15d716b9447d1376aa5e3"
+    },
+    {
+      "bytes": 110522,
+      "path": "src/renderer/public/assets/stations-dark/indie-folk.png",
+      "sha256": "4b3b2f7eff00c70c8c17410ae4ada9bb463520ac2742daeb7a246e2024463258"
+    },
+    {
+      "bytes": 78559,
+      "path": "src/renderer/public/assets/stations-dark/indie-pop.png",
+      "sha256": "2f32e60f8c3a318780306360bda2ea2cdea4fea463f1361c9369e9324eb24aa9"
+    },
+    {
+      "bytes": 118912,
+      "path": "src/renderer/public/assets/stations-dark/jazz-fusion.png",
+      "sha256": "cb0073daf802d9d5039bff970cafa6cfaa8d522480d47a4466dc877d683fc047"
+    },
+    {
+      "bytes": 73267,
+      "path": "src/renderer/public/assets/stations-dark/latin-house.png",
+      "sha256": "f7419604cd30a02800e146342d4d5f9a3b02b646cf6ba4cb539333a63a670c03"
+    },
+    {
+      "bytes": 69401,
+      "path": "src/renderer/public/assets/stations-dark/lo-fi-hip-hop.png",
+      "sha256": "0c64bd1fd4151e128b95502afc7285ab870f121d8b7843604002fba2d1eb3c00"
+    },
+    {
+      "bytes": 51138,
+      "path": "src/renderer/public/assets/stations-dark/minimalist.png",
+      "sha256": "afdbb4569bbdeb335f1a501aacb6964f10ca966d40af190b9d44f87911c739f8"
+    },
+    {
+      "bytes": 86517,
+      "path": "src/renderer/public/assets/stations-dark/modern-r-and-b.png",
+      "sha256": "52d05c17d4d35125e41df1105cf1bfe25cc2b2a58ed99a3d34d0fb8c56ae7a87"
+    },
+    {
+      "bytes": 103801,
+      "path": "src/renderer/public/assets/stations-dark/neo-soul.png",
+      "sha256": "5ca12dc46106da31d66721fa6d7840f4aaa29f518ae12b0b71907336a1e3c533"
+    },
+    {
+      "bytes": 84341,
+      "path": "src/renderer/public/assets/stations-dark/new-jack-swing.png",
+      "sha256": "e55342e27e08548b699c51f02e5ca7debfdee1476de8bac4d5da3e833ec62be8"
+    },
+    {
+      "bytes": 78443,
+      "path": "src/renderer/public/assets/stations-dark/outlaw.png",
+      "sha256": "1b0db2fcf81f0433ccf236a4be65f2ffe706e340baddd97240a0b583e1a9b7bc"
+    },
+    {
+      "bytes": 99031,
+      "path": "src/renderer/public/assets/stations-dark/progressive-metal.png",
+      "sha256": "50429c21e1318c73ccd51945570f05d3fd8291f906f1408e6226c2d1674142ee"
+    },
+    {
+      "bytes": 71670,
+      "path": "src/renderer/public/assets/stations-dark/punk-rock.png",
+      "sha256": "d0043557ed653c1adccce87c8e97c34a0f789aed8bf8d7f455a49ceef4ce37c1"
+    },
+    {
+      "bytes": 76388,
+      "path": "src/renderer/public/assets/stations-dark/romantic.png",
+      "sha256": "38b6232126762287827956812e88115c053feea9490df1e51407bb95ecdc43cc"
+    },
+    {
+      "bytes": 110967,
+      "path": "src/renderer/public/assets/stations-dark/synth-pop.png",
+      "sha256": "bb01f5d79c58b0167e2c45db7085a5dd90303e460424b81bdfb855e9dad089df"
+    },
+    {
+      "bytes": 77166,
+      "path": "src/renderer/public/assets/stations-dark/techno.png",
+      "sha256": "a6225cb99dfc02ae4d2344dc2556eb488dd0944bfa91368802028127f8be9a49"
+    },
+    {
+      "bytes": 57518,
+      "path": "src/renderer/public/assets/stations-dark/thrash-metal.png",
+      "sha256": "106be23a6b5541ceb0509da1cea57ecdfa7123c433d11bee53bc7b2ce1126b9a"
+    },
+    {
+      "bytes": 84846,
+      "path": "src/renderer/public/assets/stations-dark/trap.png",
+      "sha256": "73ff768c4d0469bd218f82c91d81d98d20e0cf7d5740423162581b2639236a64"
+    }
+  ]
+}

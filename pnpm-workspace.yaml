@@ -1,0 +1,6 @@
+# pnpm 11 keeps dependency build permissions in this project-level file even
+# for a single-package application. This does not define a multi-package workspace.
+allowBuilds:
+  electron: true
+  electron-winstaller: false
+  esbuild: true
